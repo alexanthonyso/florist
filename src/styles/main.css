@@ -1,0 +1,11 @@
+* {
+  width: auto;
+  height: auto;
+  font-family: "Gruppo", sans-serif;
+}
+
+body {
+  max-width: 1920px;
+  margin: auto;
+  background-color: #fdfdfd;
+}
