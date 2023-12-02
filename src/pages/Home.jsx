@@ -8,8 +8,7 @@ import "../styles/pages/home.css";
 import Contact from "../components/Contact";
 import flower from "../assets/logo/flower.svg";
 import AOS from "aos";
-import 'aos/dist/aos.css';
-
+import "aos/dist/aos.css";
 
 function Home() {
   useEffect(() => {
@@ -20,16 +19,17 @@ function Home() {
     <div>
       <main>
         <div className="section">
-          <h1>Moonflower</h1>
-          <h2>FLOWER SHOP</h2>
+          <div className="container-title">
+            <h1>Moonflower</h1>
+            <h2>FLOWER SHOP</h2>
+          </div>
         </div>
 
         <img className="flower-main" src={Main} alt="flower" />
         <section className="section1">
           <h3>ABOUT US</h3>
 
-          <p  data-aos="fade-up"
-              data-aos-duration="3000">
+          <p data-aos="fade-up" data-aos-duration="3000">
             Welcome to our world of floral elegance. Each bloom at our shop is a
             symbol of sophistication and timeless beauty. From sumptuous
             bouquets to custom creations, our skilled artisans craft
