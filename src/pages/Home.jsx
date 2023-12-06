@@ -7,6 +7,9 @@ import flow3 from "../assets/img/flower3.png";
 import "../styles/pages/home.css";
 import Contact from "../components/Contact";
 import flower from "../assets/logo/flower.svg";
+import Phone from "../assets/logo/Phone.svg";
+import Delevery from "../assets/logo/Delevery.svg";
+import Store from "../assets/logo/Store.svg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -72,9 +75,43 @@ function Home() {
             />
           </div>
         </section>
+        <section className="section3">
+          <h4>SERVICES</h4>
+          <div className="allinfoservice">
+            <div className="infoservice">
+              <img className="Phone" src={Phone} alt="Icône" />
+              <h5>Order by phone</h5>
+              <p>
+                To place an order, call us at [Phone Number]. Our expert
+                florists will be delighted to discuss your preferences and help
+                you create the perfect bouquet.
+              </p>
+            </div>
+            <div className="infoservice2">
+              <img className="Store" src={Store} alt="Icône" />
+              <h5>Visit Our Store </h5>
+              <p>
+                We encourage our customers to come directly to our store to
+                experience the floral magic in person. Explore our selection,
+                savor the enchanting aromas, and choose the bouquet that speaks
+                to you.
+              </p>
+            </div>
+            <div className="infoservice3">
+              <img className="Delevery" src={Delevery} alt="Icône" />
+              <h5>Delivery Not Available </h5>
+              <p>
+                Currently, we do not offer a delivery service. However, we
+                believe that the magic of flowers is best appreciated in person,
+                and we look forward to warmly welcoming you to our store.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
-
-      <Contact />
+      <div className="contact">
+        <Contact />
+      </div>
     </div>
   );
 }

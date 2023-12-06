@@ -14,9 +14,14 @@ const Contact = () => {
       <div className="allinfo">
         <div className="info">
           <h5>OPENING TIMES</h5>
-          <p>Monday -Friday 7:00am - 6:OO pm </p> <p> Saturday 8:00 am - 5:00pm</p>
+          <p>Monday -Friday 7:00am - 6:OO pm </p>{" "}
+          <p> Saturday 8:00 am - 5:00pm</p>
         </div>
-
+        <div className="info1">
+          <h5>PHONE</h5>
+          
+          <p> +555-1234-5678</p>
+        </div>
         <div className="info2">
           <h5>LOCATION</h5>
           <p>
